@@ -115,6 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="allProducts.h" />
+    <ClInclude Include="all_classes.h" />
+    <ClInclude Include="cleaningScreen.h" />
+    <ClInclude Include="greengrocers.h" />
+    <ClInclude Include="operationMenu.h" />
+    <ClInclude Include="saveProduct.h" />
+    <ClInclude Include="shopping.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="allProducts.cpp" />
+    <ClCompile Include="cleaningScreen.cpp" />
+    <ClCompile Include="greengrocers.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="operationMenu.cpp" />
+    <ClCompile Include="saveProduct.cpp" />
+    <ClCompile Include="shopping.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
